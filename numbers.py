@@ -10,3 +10,12 @@ print(6 % 4) # here % it means "modulo" gives remainder
 
 print(round(4.5)) # simply round off
 print(abs(-8)) # gives absolute value of any number
+
+# OPERATOR PRECEDENCE
+
+print((20-3)+2**2)
+#order of precedence
+# ()
+# **
+# * /
+# + _
