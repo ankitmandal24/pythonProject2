@@ -19,3 +19,6 @@ a,b,c=1,2,3
 print(a)
 print(b)
 print(c)
+
+iq=100 #it is statement
+user_iq= iq/4  #here (iq/4)is expression and whole line is statement
