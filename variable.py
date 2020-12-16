@@ -22,3 +22,11 @@ print(c)
 
 iq=100 #it is statement
 user_iq= iq/4  #here (iq/4)is expression and whole line is statement
+print(user_iq)
+# agumented assign operator
+value = 3
+value = value +2
+print(value) #also we can write this in different form
+value=5
+value+=2
+print(value) # it is called agumented assign operator
