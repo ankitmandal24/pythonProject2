@@ -30,3 +30,10 @@ print(value) #also we can write this in different form
 value=5
 value+=2
 print(value) # it is called agumented assign operator
+
+counter=0
+counter+=1
+counter+=1
+counter+=1
+counter*=2
+print(counter)
