@@ -16,3 +16,12 @@ print(full_name)
 # for space use string
 full_name = first_name + ' ' + last_name
 print(full_name)
+#  string concatenation means adding two strings
+print('hello' + ' people')
+
+# type conversion
+print(type(int(str(100))))  #  also we can write int this form (see below)
+a = str(100)
+b = int(a)
+c = type(b)
+print(c)
