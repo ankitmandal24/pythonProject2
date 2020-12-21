@@ -20,8 +20,12 @@ print(full_name)
 print('hello' + ' people')
 
 # type conversion
-print(type(int(str(100))))  #  also we can write int this form (see below)
+print(type(int(str(100))))   #  also we can write int this form (see below)
 a = str(100)
 b = int(a)
 c = type(b)
 print(c)
+#  Escape sequence
+weather = "\t It's \"kind of\" sunny \n hope u have nice day"
+#  \t for tab(double space) & \n for new line
+print(weather)
