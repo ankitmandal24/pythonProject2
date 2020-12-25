@@ -17,3 +17,24 @@ print(selfish[0:7:2])
 print(selfish[::-1])
 print(selfish[-1])  # -ve means reverse
 
+#  built in function
+greet = 'helllllooooo'
+print(greet[0:len(greet)])
+
+quote= 'to be or not to be'
+print(quote.upper())  #  written in all capital and use .lower for all capital
+print(quote.capitalize())
+print(quote.find('not'))
+print(quote.replace('to','me'))
+
+print(quote) # it is immutability which mean they never gonna change we just overwrite it until we change the sentence
+
+#  booleans
+
+name = 'minions'
+name = False
+is_ok = False
+is_ok = True
+
+print(bool(0))
+
